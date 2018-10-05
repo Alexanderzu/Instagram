@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 // Theme
 import './theme/init';
 
-const start = <div className = 'start'>🌟</div>;
+// App
+import Instagram from './pages/Instagram';
 
-ReactDOM.render(start, document.getElementById('app'));
+ReactDOM.render(<Instagram />, document.getElementById('app'));
