@@ -7,7 +7,8 @@ export default class Images extends React.Component {
         const imagesJSX = images.map((image) => {
             return <Image
                 key = { image.id }
-                src = { image.src } />
+                src = { image.src } 
+                />
         })
         return ( 
             <div className='images'>
