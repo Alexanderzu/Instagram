@@ -15,6 +15,7 @@ export default class Stories extends React.Component {
             <div className='stories'>
                 { storiJSX }
             </div>
+            
         );
     }
 }
